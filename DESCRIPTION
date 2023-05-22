@@ -1,0 +1,41 @@
+Package: PEtests
+Type: Package
+Title: Power-Enhanced (PE) Tests for High-Dimensional Data
+Version: 0.1.0
+Authors@R: 
+    c(
+    person(given="Xiufan",
+           family="Yu", 
+           email="xiufan.yu@nd.edu",
+           role = c("aut", "cre")),
+    person(given="Danning", 
+           family="Li", 
+           email="lidn040@nenu.edu.cn", 
+           role = c("aut")),
+    person(given="Lingzhou",
+           family="Xue", 
+           email="lzxue@psu.edu",
+           role=c("aut")),
+    person(given="Runze",
+           family="Li", 
+           email="rzli@psu.edu",
+           role=c("aut"))
+    )
+Description: Two-sample power-enhanced mean tests, covariance tests, and simultaneous tests on mean vectors and covariance matrices for high-dimensional data. Methods of these PE tests are presented in 
+    Yu, Li, and Xue (2022) <doi:10.1080/01621459.2022.2126781>; 
+    Yu, Li, Xue, and Li (2022) <doi:10.1080/01621459.2022.2061354>.
+Author: Xiufan Yu [aut, cre],
+  Danning Li [aut],
+  Lingzhou Xue [aut],
+  Runze Li [aut]
+Maintainer: Xiufan Yu <xiufan.yu@nd.edu>
+Imports: stats
+Encoding: UTF-8
+RoxygenNote: 7.2.3.9000
+License: GPL (>= 3)
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2023-05-21 16:15:17 UTC; xyu24
+Repository: CRAN
+Date/Publication: 2023-05-22 08:40:02 UTC
